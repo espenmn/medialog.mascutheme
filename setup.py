@@ -28,7 +28,7 @@ setup(name='medialog.mascutheme',
           'plonetheme.classic',
           'wildcard.foldercontents',
           'medialog.portlet.placeholder',
-          'medialog.subskins',
+          'collective.responsivetheme',
           'medialog.qrcode',
           # -*- Extra requirements: -*-
       ],

@@ -12,7 +12,7 @@
       />
 
   <genericsetup:importStep
-      name="medialog.mascutheme.vascuous"
+      name="medialog.mascutheme.variuous"
       title="Mascutheme Theme: miscellaneous import steps"
       description="Vascuous import steps that are not handled by GS import/export handlers."
       handler="medialog.mascutheme.setuphandlers.setupVascuous">

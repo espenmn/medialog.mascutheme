@@ -38,7 +38,7 @@
        Note: insert-before (and -after) accepts the value "*" which means
        "all".
        -->
- <skin-path name="Mascutheme Theme" based-on="subskins">
+ <skin-path name="Mascutheme Theme" based-on="Plone Classic Theme">
   <layer name="medialog_mascutheme_custom_images"
      insert-after="custom"/>
   <layer name="medialog_mascutheme_custom_templates"

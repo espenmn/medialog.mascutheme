@@ -23,28 +23,6 @@ padding-bottom: 0 !important;
 }
 
 
-
-.xsection-videregaende #portal-column-one {
-	background-color: #f3f6f8;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
- 
-.xsection-fagskole #portal-column-one {
-	background-color: #fff3c1;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-
-.xsection-kurssenter #portal-column-one{
-		background-color: #e2e9a3;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-
 #portal-column-content {
     vertical-align: top;
     border-collapse: collapse;
