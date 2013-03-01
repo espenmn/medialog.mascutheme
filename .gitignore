@@ -1,3 +1,4 @@
+build*/*
 
 *.pyc
 
@@ -15,3 +16,5 @@ Paste*
 medialog.mascutheme.egg-info
 
 *.gz
+
+build/*

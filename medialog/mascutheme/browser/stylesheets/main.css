@@ -1,13 +1,4 @@
-/* @override 
-	http://maritime.medialog.no/portal_css/Maritheme%20Theme/main.css
-	http://xweb14f.plana.dk:8096/maritme/portal_css/Maritheme%20Theme/main.css
-*/
 
-/* - main.css - */
-@media screen {
-/* http://maritime.medialog.no/portal_css/main.css?original=1 */
-/* */
-/* */
 
 div.portletStaticText.portlet-static-fylkekommunebar {
 	width: 982px; margin: auto;
@@ -222,7 +213,6 @@ box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 /* */
 /* */
 #portal-columns {
-width: 100% !important;
 background-repeat: repeat-x;
 background-color: #ffffff;
 margin: 0px auto;
@@ -887,7 +877,5 @@ margin-right: 20px;
 #headerHFKLogo {
 vertical-align: middle;
 border-style: none;
-}
-/* */
 }
 
