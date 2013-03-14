@@ -1,4 +1,3 @@
-/* @override http://maritime.medialog.no/portal_css/Mascutheme%20Theme/main.css */
 
 div.portletStaticText.portlet-static-fylkekommunebar {
 	width: 982px;
@@ -168,7 +167,7 @@ form.searchPage input.searchButton {
 	-webkit-border-radius: 6px 6px 0 0;
 	-moz-border-radius: 6px 6px 0 0;
 	border-radius: 6px 6px 0 0;
-	background: #FFCC00;
+	background: #275f79;
 	-webkit-transition-duration: 0.20s;
 	-webkit-transition-timing-function: ease-out;
 	-moz-transition-duration: 0.20s;
@@ -180,36 +179,62 @@ form.searchPage input.searchButton {
 	float: left;
 	list-style-type: none;
 	list-style-image: none;
+	display: block;
+	float: left;
 }
 
-#portal-globalnav li,
-#portal-subnavbar li.plain {
+#portal-globalnav li {
 	display: block;
 	float: left;
 }
 
 #portal-subnavbar {
-	clear: right;
+	clear: both;
 	padding: 0 0 0 100px;
 }
 
 .section-videregaende #portal-subnavbar li a,
-.section-videregaende #portal-globalnav li.selected a,
-#portal-globalnav li#portaltab-videregaende a:hover  {
+#portal-globalnav li#portaltab-videregaende a,
+.section-videregaende #portal-globalnav li.selected a {
 	background: #66a4d3;
+
+}
+ 
+#portal-globalnav li#portaltab-videregaende a:hover  {
+	background: #6195b9;
+
 }
 
 .section-fagskole #portal-subnavbar li a,
-.section-fagskole #portal-globalnav li.selected a,
-#portal-globalnav li#portaltab-fagskole a:hover {
+#portal-globalnav li#portaltab-fagskole a,
+.section-fagskole #portal-globalnav li.selected a {
 	background: #ebaf28;
+
+}
+
+ 
+#portal-globalnav li#portaltab-fagskole a:hover {
+	background: #dbae29;
+	
+}
+
+.section-kurssenter #portal-globalnav li a, 
+.section-videregaende #portal-globalnav li a, 
+.section-fagskole #portal-globalnav li a {
+	opacity: 0.65;
 }
 
 .section-kurssenter #portal-subnavbar li a,
-.section-kurssenter #portal-globalnav li.selected a,
-#portal-globalnav li#portaltab-kurssenter a:hover   {
+#portal-globalnav li#portaltab-kurssenter a,
+.section-kurssenter #portal-globalnav li.selected a  {
 	background: #73a338;
+
 } 
+
+#portal-globalnav li#portaltab-kurssenter a:hover   {
+	background: #689333;
+} 
+
 
 #portal-subnavbar li.selected a {
 	background: white;
@@ -218,14 +243,16 @@ form.searchPage input.searchButton {
 }
 
 #portal-globalnav li a:hover {
-	background: #3e7135;
-}
+	background: #a12123;
+	opacity: 1;
+	}
 
 #portal-globalnav li.selected a {
 	background: #FFCC00;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	opacity: 1;
 }
 
  
@@ -254,9 +281,10 @@ form.searchPage input.searchButton {
 }
 
 #portal-column-two {
-	width: 175px;
+	width: 155px;
 	padding-top: 20px;
 	padding-left: 20px;
+        padding-right: 20px;
 	margin-left: 25px;
 	border-left: 1px solid #ccc;
 }
