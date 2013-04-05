@@ -19,4 +19,4 @@ class ZexpExportView(BrowserView):
     """    
     
     def __call__(self):
-        self.context.manage_exportObject() 
+        self.context.manage_exportObject(download=1) 
