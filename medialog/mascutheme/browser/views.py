@@ -11,3 +11,12 @@ class CookView(BrowserView):
         javascriptregistry=getToolByName(self, 'portal_javascripts')        
         cssregistry.cookResources()
         javascriptregistry.cookResources()
+        
+
+class ZexpExportView(BrowserView):
+    """
+    Export site as zexp
+    """    
+    
+    def __call__(self):
+        self.context.manage_exportObject() 

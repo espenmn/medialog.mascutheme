@@ -45,6 +45,14 @@
         layer=".interfaces.IThemeSpecific"
     />  
     
+    <browser:page 
+    	name="backup"
+  	    for="*"
+  	    permission="cmf.ManagePortal"
+  	    class=".views.ZexpExportView"
+        layer=".interfaces.IThemeSpecific"
+    />  
+    
   <!-- A portlet manager
   -->
 
